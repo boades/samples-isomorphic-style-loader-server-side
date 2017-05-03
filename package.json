@@ -1,0 +1,26 @@
+{
+  "name": "samples-isomorphic-style-loader-server-side",
+  "version": "1.0.0",
+  "description": "Minimal isomorphic-style-loader sample, demonstrates css server-side rendering",
+  "keywords": [
+    "webpack",
+    "rendering",
+    "isomorphic-style-loader"
+  ],
+  "main": "src/server.js",
+  "scripts": {
+    "prestart": "node_modules\\.bin\\webpack",
+    "start": "node build\\bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boades/samples-isomorphic-style-loader-server-side.git"
+  },
+  "author": "Oleksii Udovychenko (oleksiionsoftware.com)",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^2.4.1",
+    "css-loader": "^0.23.1",
+    "isomorphic-style-loader": "^2.0.0"
+  }
+}
